@@ -45,6 +45,7 @@ function eventKey(event) {
     document.getElementById("key-f10").classList.toggle('color2');
   } else if (event.which == 122) {
     document.getElementById("key-f11").classList.toggle('color2');
+    return false;
   } else if (event.which == 123) {
     document.getElementById("key-f12").classList.toggle('color2');
   } else if (event.which == 46) {
