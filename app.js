@@ -194,6 +194,10 @@ window.addEventListener("keydown", function (event) {
     document.getElementById("key-z").classList.toggle('color2');
   } else if (event.which == 188) {
     document.getElementById("key-comma").classList.toggle('color2');
+  } else if (event.which == 190) {
+    document.getElementById("key-period").classList.toggle('color2');
+  } else if (event.which == 191) {
+    document.getElementById("key-slash").classList.toggle('color2');
   } else if (event.which == 32) {
     document.getElementById("key-space").classList.toggle('color2');
   }
@@ -395,6 +399,10 @@ window.addEventListener("keyup", function (event) {
     document.getElementById("key-z").classList.toggle('color2');
   } else if (event.which == 188) {
     document.getElementById("key-comma").classList.toggle('color2');
+  } else if (event.which == 190) {
+    document.getElementById("key-period").classList.toggle('color2');
+  } else if (event.which == 191) {
+    document.getElementById("key-slash").classList.toggle('color2');
   } else if (event.which == 32) {
     document.getElementById("key-space").classList.toggle('color2');
   }
